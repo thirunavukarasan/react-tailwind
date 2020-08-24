@@ -1,0 +1,31 @@
+.tru-ban-prev, .tru-ban-next {
+    top: 45% !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: none !important;
+    color: white !important;
+  }
+  .tru-dot-pos {
+    bottom: 6% ;
+  }
+  
+  .tru-dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .tru-active, .tru-dot:hover {
+    background-color: green;
+  }
