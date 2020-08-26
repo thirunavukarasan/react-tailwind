@@ -1,15 +1,29 @@
 module.exports = {
+  prefix: ['weaverz-ai-'],
   purge: {
-    enabled: true,
+    // enabled: false,
     content: ['./src/**/*.js'],
   },
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: "1.25rem",
+    },
+    fontFamily: {
+      sans: ["Roboto", "system-ui", "sans-serif"],
+    },
+    extend: {
+      fontSize: {
+        xxs: "0.625rem",
+      },
+      maxHeight: {
+        "48": "12rem",
+        "80vh": "80vh",
+        "90vh": "90vh",
+        none: "none",
+      },
+    },
   },
   variants: {},
-  plugins: [
-    require('tailwindcss'),
-    require('autoprefixer')
-  ],
-  prefix: 'tru-'
+  plugins: [],
 }

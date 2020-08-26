@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import ImageGridView from './components/ImageGrid/ImageGridView';
-import ImageSlider from './components/ImageSlider/ImageSlider';
+import ImageGallery from './components/ImageGallery/ImageGallery';
+import RetailerPage from './components/RetailerPage/RetailerPage';
 
 
 function App() {
@@ -10,7 +10,9 @@ function App() {
 		<>
 			{/* <ImageGridView images={imagesArr} viewHeading="Image Grid View Heading"  /> */}
 
-			<ImageSlider sliderImages= {imagesArr}/>
+			<ImageGallery sliderImages= {imagesArr}/>
+
+			<RetailerPage />
 		</>
 	);
 }

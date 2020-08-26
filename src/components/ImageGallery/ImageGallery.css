@@ -1,4 +1,4 @@
-.tru-ban-prev, .tru-ban-next {
+.weaverz-ai-ban-prev, .weaverz-ai-ban-next {
     top: 45% !important;
   }
   
@@ -11,11 +11,11 @@
     text-decoration: none !important;
     color: white !important;
   }
-  .tru-dot-pos {
+  .weaverz-ai-dot-pos {
     bottom: 6% ;
   }
   
-  .tru-dot {
+  .weaverz-ai-dot {
     cursor: pointer;
     height: 12px;
     width: 12px;
@@ -26,6 +26,6 @@
     transition: background-color 0.6s ease;
   }
   
-  .tru-active, .tru-dot:hover {
+  .weaverz-ai-active, .weaverz-ai-dot:hover {
     background-color: green;
   }
