@@ -27,28 +27,28 @@ class RetailerPage extends React.Component {
                 content="The Fit Knit upper provides a fashion-forward aesthetic with a secure, distraction-free fit"
                 imgOrder = "last"
               />
-              <hr className="sm:weaverz-ai-block sm:weaverz-ai-hidden weaverz-ai-my-2"></hr>
+              <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
               <RetailerBenfits
                 imgSrc={img8}
                 heading="Responsive ride"
                 content="BioMoGo DNA combines with the Green Rubber outsole to create a springy feel."
                 imgOrder = "first"
               />
-              <hr className="sm:weaverz-ai-block sm:weaverz-ai-hidden weaverz-ai-my-2"></hr>
+              <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
               <RetailerBenfits
                 imgSrc={img1}
                 heading="Super springy"
                 content="Now 20% lighter, our DNA AMP midsole technology lets your foot spring off the ground with each step for speedy, efficient energy return"
                 imgOrder = "last"
               />
-              <hr className="sm:weaverz-ai-block sm:weaverz-ai-hidden weaverz-ai-my-2"></hr>
+              <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
               <RetailerBenfits
                 imgSrc={img2}
                 heading="GuideRails® holistic support system"
                 content="We’ve shifted our focus beyond the feet to the most injury-prone part of a runner’s body: the knees. GuideRails® support keeps you moving comfortably by keeping excess movement in check."
                 imgOrder = "first"
               />
-              <hr className="sm:weaverz-ai-block sm:weaverz-ai-hidden weaverz-ai-my-2"></hr>
+              <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
             </div>
 
             {/* Colum -2 */}
@@ -59,21 +59,21 @@ class RetailerPage extends React.Component {
                 content="The Fit Knit upper provides a fashion-forward aesthetic with a secure, distraction-free fit"
                 imgOrder = "last"
               />
-              <hr className="sm:weaverz-ai-block sm:weaverz-ai-hidden weaverz-ai-my-2"></hr>
+              <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
               <RetailerBenfits
                 imgSrc={img5}
                 heading="Responsive ride"
                 content="BioMoGo DNA combines with the Green Rubber outsole to create a springy feel."
                 imgOrder = "first"
               />
-              <hr className="sm:weaverz-ai-block sm:weaverz-ai-hidden weaverz-ai-my-2"></hr>
+              <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
               <RetailerBenfits
                 imgSrc={img6}
                 heading="Super springy"
                 content="Now 20% lighter, our DNA AMP midsole technology lets your foot spring off the ground with each step for speedy, efficient energy return"
                 imgOrder = "last"
               />
-              <hr className="sm:weaverz-ai-block sm:weaverz-ai-hidden weaverz-ai-my-2"></hr>
+              <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
               <RetailerBenfits
                 imgSrc={img9}
                 heading="GuideRails® holistic support system"
