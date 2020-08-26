@@ -20,24 +20,25 @@ function App() {
 function getImagesData() {
 	return [
 		{
-			imgUrl : 'https://picsum.photos/id/237/700/300'
+			imgUrl : "https://www.brooksrunning.com/dw/image/v2/aaev_prd/on/demandware.static/-/Sites-BrooksCatalog/default/dw39f81968/images/ProductImages/110343/110343_012_l_WR.jpg?sw=900"
 		},
 		{
-			imgUrl : 'https://picsum.photos/id/100/700/300'
+			imgUrl : "https://www.brooksrunning.com/dw/image/v2/aaev_prd/on/demandware.static/-/Sites-BrooksCatalog/default/dw4bd0dee1/images/ProductImages/110343/110343_012_a_WR.jpg?sw=900"
 		},
 		{
-			imgUrl : 'https://picsum.photos/id/90/700/300'
+			imgUrl : "https://www.brooksrunning.com/dw/image/v2/aaev_prd/on/demandware.static/-/Sites-BrooksCatalog/default/dwf6b0dfc8/images/ProductImages/110343/110343_012_o_WR.jpg?sw=900"
 		},
 		{
-			imgUrl : 'https://picsum.photos/id/268/700/300'
+			imgUrl : "https://www.brooksrunning.com/dw/image/v2/aaev_prd/on/demandware.static/-/Sites-BrooksCatalog/default/dwcf971a04/images/ProductImages/110343/110343_012_h_WR.jpg?sw=900"
 		},
 		{
-			imgUrl : 'https://picsum.photos/id/124/700/300'
+			imgUrl : "https://www.brooksrunning.com/dw/image/v2/aaev_prd/on/demandware.static/-/Sites-BrooksCatalog/default/dw7869e117/images/ProductImages/110343/110343_012_m_WR.jpg?sw=900"
 		},
 		{
-			imgUrl : 'https://picsum.photos/id/85/700/300'
+			imgUrl : "https://www.brooksrunning.com/dw/image/v2/aaev_prd/on/demandware.static/-/Sites-BrooksCatalog/default/dw6b723b15/images/ProductImages/110343/110343_012_s_WR.jpg?sw=900"
 		}
-
+	
+	
 	]
 }
 

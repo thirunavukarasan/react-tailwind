@@ -8,7 +8,7 @@ class RetailerBenfits extends React.Component {
       <>
         {/*container for layout */}
         <div className="weaverz-ai-grid lg:weaverz-ai-grid-cols-2  md:weaverz-ai-grid-cols-2 sm:weaverz-ai-grid-cols-1">
-          <div className=" md:weaverz-ai-py-10 md:weaverz-ai-mt-10 weaverz-ai-p-4 md:weaverz-ai-p-0">
+          <div className=" md:weaverz-ai-py-10 md:weaverz-ai-mt-8 weaverz-ai-p-4 md:weaverz-ai-p-0">
             <h6 className="weaverz-ai-font-bold weaverz-ai-text-left">
               {this.props.heading}
             </h6>
