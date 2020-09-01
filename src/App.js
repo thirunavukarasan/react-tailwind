@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css';
 import ImageGallery from './components/ImageGallery/ImageGallery';
+
+import RetailerPage from './components/RetailerPage/RetailerPage';
+import Shoetemplate from "./components/Shoetemplate/Shoetemplate"
+
 import RetailerPage1 from './components/RetailerPage1/RetailerPage1';
 import RetailerPage2 from './components/RetailerPage2/RetailerPage2';
 
@@ -14,6 +18,8 @@ function App() {
 			<ImageGallery sliderImages= {imagesArr}/>
 
 			{/* <ImageGallery sliderImages= {imagesArr}/> */}
+			{/* <ImageGallery sliderImages= {imagesArr}/> */}
+			<Shoetemplate />
 			<RetailerPage1 />
 			<hr></hr>
 			<RetailerPage2 />
