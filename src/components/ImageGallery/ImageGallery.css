@@ -1,0 +1,31 @@
+.weaverz-ai-ban-prev, .weaverz-ai-ban-next {
+    top: 45% !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: none !important;
+    color: white !important;
+  }
+  .weaverz-ai-dot-pos {
+    bottom: 6% ;
+  }
+  
+  .weaverz-ai-dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .weaverz-ai-active, .weaverz-ai-dot:hover {
+    background-color: green;
+  }
