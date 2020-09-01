@@ -24,6 +24,7 @@ class RetailerPage extends React.Component {
               <RetailerBenfits
                 imgSrc={img3}
                 heading="Fresh Look"
+                
                 content="The Fit Knit upper provides a fashion-forward aesthetic with a secure, distraction-free fit"
                 imgOrder = "last"
               />

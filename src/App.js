@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import ImageGallery from './components/ImageGallery/ImageGallery';
 import RetailerPage from './components/RetailerPage/RetailerPage';
-
+import Shoetemplate from "./components/Shoetemplate/Shoetemplate"
 
 function App() {
 	const imagesArr = getImagesData();
@@ -10,9 +10,9 @@ function App() {
 		<>
 			{/* <ImageGridView images={imagesArr} viewHeading="Image Grid View Heading"  /> */}
 
-			<ImageGallery sliderImages= {imagesArr}/>
+			{/* <ImageGallery sliderImages= {imagesArr}/> */}
 
-			<RetailerPage />
+			<Shoetemplate />
 		</>
 	);
 }
