@@ -3,6 +3,7 @@ import './App.css';
 import ImageGallery from './components/ImageGallery/ImageGallery';
 import RetailerPage1 from './components/RetailerPage1/RetailerPage1';
 import RetailerPage2 from './components/RetailerPage2/RetailerPage2';
+import RetailerPage3 from './components/Retailerpage3/RetailerPage3';
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
 			<RetailerPage1 />
 			<hr></hr>
 			<RetailerPage2 />
+			<hr></hr>
+			<RetailerPage3/>
 			
 		</>
 	);
