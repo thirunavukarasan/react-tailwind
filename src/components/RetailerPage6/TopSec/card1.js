@@ -1,9 +1,10 @@
 import React from "react";
-import img1 from "../../../assets/img/img1.jpg";
-import img2 from "../../../assets/img/img2.jpg";
+import img1 from "../../../assets/img/imgRet6/img1.jpg";
+import img2 from "../../../assets/img/imgRet6/img2.jpeg";
 import Content1 from "../TopSec/Content1"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import "../TopSec/Content1.css"; 
 
 class Card1 extends React.Component {
   render() {
