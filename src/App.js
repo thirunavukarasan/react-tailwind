@@ -8,25 +8,32 @@ import Shoetemplate from "./components/Shoetemplate/Shoetemplate"
 import RetailerPage1 from './components/RetailerPage1/RetailerPage1';
 import RetailerPage2 from './components/RetailerPage2/RetailerPage2';
 import RetailerPage3 from './components/Retailerpage3/RetailerPage3';
+import RetailerPage4 from  '../src/components/RetailerPage4/Pages/Page1';
+import RetailerPage6 from  '../src/components/RetailerPage6/Icon/card';
+import RetailerPage6a from  '../src/components/RetailerPage6/TopSec/card1';
+
 
 
 function App() {
 	const imagesArr = getImagesData();
 	return (
 		<>
-			{/* <ImageGridView images={imagesArr} viewHeading="Image Grid View Heading"  /> */}
+			{/* <ImageGridView images={imagesArr} viewHeading="Image Grid View Heading"  /> 
 
 			<ImageGallery sliderImages= {imagesArr}/>
 
-			{/* <ImageGallery sliderImages= {imagesArr}/> */}
-			{/* <ImageGallery sliderImages= {imagesArr}/> */}
+			 <ImageGallery sliderImages= {imagesArr}/> 
+		  <ImageGallery sliderImages= {imagesArr}/> 
 			<Shoetemplate />
 			<RetailerPage1 />
 			<hr></hr>
 			<RetailerPage2 />
 			<hr></hr>
 			<RetailerPage3/>
-			
+	*/}
+	<RetailerPage6a/>
+	<RetailerPage6/>
+	
 		</>
 	);
 }
