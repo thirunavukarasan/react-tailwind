@@ -11,6 +11,8 @@ import RetailerPage3 from './components/Retailerpage3/RetailerPage3';
 import RetailerPage4 from  '../src/components/RetailerPage4/Pages/Page1';
 import RetailerPage6 from  '../src/components/RetailerPage6/Icon/card';
 import RetailerPage6a from  '../src/components/RetailerPage6/TopSec/card1';
+import RetailerPage6b from  '../src/components/RetailerPage6/TopSec/card2';
+import RetailerPage7 from  '../src/components/RetailerPage7/card';
 
 
 
@@ -29,11 +31,14 @@ function App() {
 			<hr></hr>
 			<RetailerPage2 />
 			<hr></hr>
+			<RetailerPage7/>
 			<RetailerPage3/>
-	*/}
-	<RetailerPage6a/>
-	<RetailerPage6/>
-	
+	      
+	       */}
+            <RetailerPage4/>
+			<RetailerPage6a/>
+			<RetailerPage6b/>
+			<RetailerPage6/>
 		</>
 	);
 }

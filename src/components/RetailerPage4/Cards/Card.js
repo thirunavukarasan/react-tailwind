@@ -20,9 +20,9 @@ class Card extends React.Component {
             </p>
           </div>
           <div
-            className={`weaverz-ai-imgSec weaverz-ai-order-first sm:weaverz-ai-order-first md:weaverz-ai-order-${this.props.imgOrder}`}
+            className={`weaverz-ai-imgSec  weaverz-ai-order-first sm:weaverz-ai-order-first md:weaverz-ai-order-${this.props.imgOrder}`}
           >
-            <div ClassName="">
+            <div className="weaverz-ai-mr-10">
               <img
                 src={this.props.imgSrc}
                 alt=""
