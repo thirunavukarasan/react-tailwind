@@ -15,7 +15,7 @@ class Card extends React.Component {
       <>
         <div className=" md:weaverz-ai-container md:weaverz-ai-mx-auto">
           <div className="weaverz-ai-text-center weaverz-ai-font-bold"><h5>The Benifits of Wool Runner Mizzles</h5></div>
-          <div className="weaverz-ai-grid weaverz-ai-gap-x-10 md:weaverz-ai-mr-40 md:weaverz-ai-ml-40 xlg:weaverz-ai-grid-rows-2 xlg:weaverz-ai-grid-cols-4 md:weaverz-ai-grid-cols-4 sm:weaverz-ai-grid-cols-2 xs:weaverz-ai-grid-cols-2 ">
+          <div className="weaverz-ai-grid weaverz-ai-gap-x-10 xlg:weaverz-ai-grid-rows-2 xlg:weaverz-ai-grid-cols-4 md:weaverz-ai-grid-cols-4 sm:weaverz-ai-grid-cols-2 xs:weaverz-ai-grid-cols-2 ">
             <div ClassName="">
               <Content
                 icon={<FontAwesomeIcon icon={faCoffee} >  </FontAwesomeIcon>}

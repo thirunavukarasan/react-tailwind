@@ -1,5 +1,4 @@
 import React from "react";
-import '../Icon/card.css'
 
 class Content extends React.Component {
   render() {
