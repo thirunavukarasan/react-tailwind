@@ -6,7 +6,6 @@ class ImageGallery extends React.Component {
         super(props);
         console.log(this.props);
         this.sliderIndex = 0;
-
         this.state = {
             sliderImages: this.props.sliderImages
         }

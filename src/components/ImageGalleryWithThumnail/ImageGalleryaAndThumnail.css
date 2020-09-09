@@ -1,0 +1,21 @@
+.weaverz-ai-ban-prev, .weaverz-ai-ban-next {
+    top: 45% !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: none !important;
+    color: black !important;
+  }
+
+  ul>li{
+    display: inline;
+  }
+
+  .weaverz-ai-hover:hover {
+    opacity: 1;
+  }

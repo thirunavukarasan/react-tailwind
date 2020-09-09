@@ -22,7 +22,7 @@ class RetailerBenfits extends React.Component {
             </div>
           </div>
           <div
-            className={`weaverz-ai-imgSec weaverz-ai-order-first sm:weaverz-ai-order-first md:weaverz-ai-order-${this.props.imgOrder}`}
+            className={`weaverz-ai-order-first sm:weaverz-ai-order-first md:weaverz-ai-order-${this.props.imgOrder}`}
           >
             <div ClassName="">
               <img
