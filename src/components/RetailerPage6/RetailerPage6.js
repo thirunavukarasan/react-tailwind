@@ -1,38 +1,42 @@
-import React from 'react';
-import './App.css';
-import ImageGallery from './components/ImageGallery/ImageGallery';
-import RetailerPage1 from './components/RetailerPage1/RetailerPage1';
-import RetailerPage2 from './components/RetailerPage2/RetailerPage2';
-import RetailerPage3 from './components/Retailerpage3/RetailerPage3';
-import RetailerPage4 from  '../src/components/RetailerPage4/Pages/Page1';
-import Shoetemplate from "./components/Shoetemplate/Shoetemplate"
-import RetailerPage6 from  '../src/components/RetailerPage6/RetailerPage6';
-import RetailerPage6a from  '../src/components/RetailerPage6/TopSec/card1';
-import RetailerPage6b from '../src/components/RetailerPage6/ThumnailGallery/ImageGallery'
+import React from "react";
+import img1 from "../../assets/Template3/img1.jpg";
+import img2 from "../../assets/Template3/img2.jpg";
+import img3 from "../../assets/Template3/img3.jpg";
+import img4 from "../../assets/Template3/img4.jpg";
+import img5 from "../../assets/Template3/img5.jpg";
+import img6 from "../../assets/Template3/img6.jpg";
+import Topsec from "../RetailerPage6/TopSec/card1"
+import Icon from "../RetailerPage6/Icon/card"
+import ThumnailGallerry from "../RetailerPage6/ThumnailGallery/ImageGallery"
 
 
-
-function App() {
-	const imagesArr = getImagesData();
-	return (
-		<>
-			{/* <ImageGallery sliderImages= {imagesArr}/> */}
-		
-			<RetailerPage1 />
-			<hr></hr>
-			<RetailerPage2 />
-			<hr></hr>
-			<RetailerPage3/>
-			<hr></hr>
-			<RetailerPage4/>
-			<hr></hr>
-			<RetailerPage6 />
-			<RetailerPage6b sliderImages= {imagesArr}/>
-			<hr></hr>
-			<Shoetemplate />
-		</>
-	);
+class RetailerPage6 extends React.Component {
+  constructor() {
+    super()
+    let imgArry = getImagesData()
+  } 
+  render() {
+    return (
+      <>
+        {/*container for layout */}
+        <div className="md:weaverz-ai-container md:weaverz-ai-mx-auto">
+        <h3 className="weaverz-ai-text-center">Template 6</h3>
+          <div className="weaverz-ai-grid weaverz-ai-gap-x-24 xlg:weaverz-ai-grid-cols-1 lg:weaverz-ai-grid-cols-1 md:weaverz-ai-grid-cols-1 sm:weaverz-ai-grid-cols-1 weaverz-ai-mt-4 weaverz-ai-bg-500">
+            {/* Colum -1 */}
+            <div ClassName="">
+                <Topsec/>
+                <Icon/>
+                {/* <ThumnailGallerry sliderImages={this.imgArry}/> */}
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  }
 }
+
+export default RetailerPage6;
+
 
 function getImagesData() {
 	return [
@@ -60,7 +64,7 @@ function getImagesData() {
 		{
 			imgUrl : "https://www.brooksrunning.com/dw/image/v2/aaev_prd/on/demandware.static/-/Sites-BrooksCatalog/default/dwf6b0dfc8/images/ProductImages/110343/110343_012_o_WR.jpg?sw=900"
 		}
+	
+	
 	]
 }
-
-export default App;

@@ -85,8 +85,6 @@ class Card extends React.Component {
               
               />
              <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr> </div>
-
-           
           </div>
           </div>
         </div>
