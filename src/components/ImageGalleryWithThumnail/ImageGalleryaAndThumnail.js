@@ -38,7 +38,7 @@ class ImageGallery extends React.Component {
         this.showSlides(this.sliderIndex)
     }
 
-    showSlides(n,minIndx,maxIndx) {
+    showSlides(n) {
 
         const sliderImages = this.state.sliderImagesForBanner.map((value, index) => {
             value.isShow = false;
@@ -54,7 +54,6 @@ class ImageGallery extends React.Component {
             this.state.sliderImagesForBanner[n].thumnail = true;
         }
         if ( n <= 2) {
-                console.log("sdsdsds")
             this.state.sliderImagesForBanner[n + 5].thumnail = false;
             this.state.sliderImagesForBanner[n].thumnail = true;
         }
@@ -73,7 +72,7 @@ class ImageGallery extends React.Component {
             <>
                 <div className="weaverz-ai-container weaverz-ai-mx-auto weaverz-ai-p-2 ">
                     <div className="weaverz-ai-grid weaverz-ai-gap-y-1 weaverz-ai-gap-x-1 weaverz-ai-grid-cols-1 ">
-                        <div className="weaverz-ai-mt-4 weaverz-ai-relative">
+                        {/* <div className="weaverz-ai-mt-4 weaverz-ai-relative">
                             {
                                 this.state.sliderImagesForBanner.map((value, index) => {
                                     return <img key={index} className={"weaverz-ai-banner-img weaverz-ai-rounded " + (value.isShow == false ? 'weaverz-ai-hidden' : '')} src={value.imgUrl} style={{ width: "100%" }} />
@@ -81,8 +80,26 @@ class ImageGallery extends React.Component {
                             }
                             <a className="weaverz-ai-absolute weaverz-ai-text-black weaverz-ai-ml-6 weaverz-ai-text-2xl weaverz-ai-left-x-0 weaverz-ai-ban-prev" onClick={() => this.plusSlides(-1)}>&#10094;</a>
                             <a className="weaverz-ai-absolute weaverz-ai-text-black  weaverz-ai-mr-6  weaverz-ai-text-2xl weaverz-ai-right-0 weaverz-ai-ban-next" onClick={() => this.plusSlides(1)}>&#10095;</a>
+                        </div> */}
+                        <div className="weaverz-ai-bg-gray-300 weaverz-ai-mt-4 weaverz-ai-relative">
+                            {
+                                this.state.sliderImagesForBanner.map((value, index) => {
+                                    return <img key={index} className={"weaverz-ai-banner-img weaverz-ai-rounded " + (value.isShow == false ? 'weaverz-ai-hidden' : '')} src={value.imgUrl} style={{ width: "100%" }} />
+                                })
+                            }
+                            <a className="weaverz-ai-absolute weaverz-ai-text-black weaverz-ai-ml-6 weaverz-ai-text-2xl weaverz-ai-left-x-0 weaverz-ai-ban-prev" onClick={() => this.plusSlides(-1)}>&#10094;</a>
+                            <a className="weaverz-ai-absolute weaverz-ai-text-black  weaverz-ai-mr-6  weaverz-ai-text-2xl weaverz-ai-right-0 weaverz-ai-ban-next" onClick={() => this.plusSlides(1)}>&#10095;</a>
+                            <div className="weaverz-ai-absolute weaverz-ai-inset-x-0 weaverz-ai-dot-pos weaverz-ai-block md:weaverz-ai-hidden">
+                                <div className="weaverz-ai-text-center">
+                                    {
+                                        this.state.sliderImagesForBanner.map((value, index) => {
+                                            return <span key={index} className={"weaverz-ai-dot thumb-dot " + (value.isShow == false ? '' : 'weaverz-ai-active')} onClick={() => this.currentSlide(index)}></span>
+                                        })
+                                    }
+                                </div>
+                            </div>
                         </div>
-                        <div className="weaverz-ai-grid weaverz-ai-gap-y-1 weaverz-ai-gap-x-1 weaverz-ai-grid-cols-1">
+                        <div className="weaverz-ai-grid weaverz-ai-gap-y-1 weaverz-ai-gap-x-1 weaverz-ai-grid-cols-1 weaverz-ai-hidden md:weaverz-ai-block">
                             <div className="weaverz-ai-mt-4 weaverz-ai-relative">
                                 <ul>
                                     {

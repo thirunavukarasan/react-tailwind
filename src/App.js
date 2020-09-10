@@ -4,14 +4,7 @@ import ImageGallery from './components/ImageGallery/ImageGallery';
 import RetailerPage1 from './components/RetailerPage1/RetailerPage1';
 import RetailerPage2 from './components/RetailerPage2/RetailerPage2';
 import RetailerPage3 from './components/Retailerpage3/RetailerPage3';
-import RetailerPage4 from  '../src/components/RetailerPage4/Pages/Page1';
-import Shoetemplate from "./components/Shoetemplate/Shoetemplate"
-import RetailerPage6 from  '../src/components/RetailerPage6/RetailerPage6';
-import RetailerPage6a from  '../src/components/RetailerPage6/TopSec/card1';
-import RetailerPage6b from  '../src/components/RetailerPage6/TopSec/card2';
-import RetailerPage7 from  '../src/components/RetailerPage7/card';
-import ImageGallerwithThumnail from './components/ImageGalleryWithThumnail/ImageGalleryaAndThumnail'
-import ThumNailGallery from './components/RetailerPage6/ThumnailGallery/ImageGallery'
+import Temp1 from './Template/Temp-1'
 
 
 
@@ -20,10 +13,13 @@ function App() {
 	return (
 		<>
 			{/* <ImageGallery sliderImages= {imagesArr}/> */}
-			<RetailerPage2 />		
-			<ImageGallerwithThumnail sliderImages= {imagesArr}/>
-
-		</>
+			<Temp1/>
+			<RetailerPage1/>
+			<RetailerPage3/>
+			<RetailerPage2/>
+			
+	
+		</>	
 	);
 }
 

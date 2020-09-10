@@ -10,7 +10,7 @@
     background-color: gray;
 }
 
-#weaverz-ai-img-Sec {
+/* #weaverz-ai-img-Sec {
     width:100%;
     height: 350px;;
     background-color: black;
@@ -19,7 +19,7 @@
 #weaverz-ai-cus-img {
     height: inherit;
     width: -webkit-fill-available;
-}
+} */
 
 .weaverz-ai-body-pos{
     bottom: 30% ;
