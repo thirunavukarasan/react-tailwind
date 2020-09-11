@@ -1,30 +1,41 @@
 import React from "react";
+
 class Content extends React.Component {
   render() {
     console.log(this.props);
     return (
       <>
-        <div className="weaverz-ai-grid lg:weaverz-ai-grid-cols-1  md:weaverz-ai-grid-cols-1 sm:weaverz-ai-grid-cols-1">
-          <div className=" md:weaverz-ai-py-0  md:weaverz-ai-mt-0 weaverz-ai-p-0 md:weaverz-ai-p-0 xs:weaverz-ai-p-10">
-             
-            <div
-            className={`weaverz-ai-image `}
+        {/*container for layout */}
+        <div className="weaverz-ai-grid  lg:weaverz-ai-grid-cols-1  md:weaverz-ai-grid-cols-1 sm:weaverz-ai-grid-cols-1">
+          <div className=" md:weaverz-ai-py-0 weaverz-ai-p-0 md:weaverz-ai-p-0">
+          <div
+            className={`weaverz-ai-imgSec weaverz-ai-order-first sm:weaverz-ai-order-first md:weaverz-ai-order-${this.props.imgOrder}`}
           >
-            <div className="">
+            <div ClassName="">
               <img
                 src={this.props.imgSrc}
-                alt=""
-                style={{width: "100%" }}
+                alt="photo"
+                style={{ width: "100%" }}
               />
             </div>
-            <h6 className="weaverz-ai-text-center weaverz-ai-text-bold ">
-                {this.props.heading}
-             </h6>
-            <p className="weaverz-ai-text-center weaverz-ai-text-sm ">
+          </div>
+            <h6 className="weaverz-ai-font-bold weaverz-ai-text-left ">
+              {this.props.heading}
+            </h6>
+            <p className="weaverz-ai-text-left weaverz-ai-text-sm ">
               {this.props.content}
             </p>
-            </div>
+            <h6 className="weaverz-ai-font-bold weaverz-ai-mt-5 weaverz-ai-text-left ">
+              {this.props.heading1}
+            </h6>
+            <p className="weaverz-ai-text-left weaverz-ai-mt-5 weaverz-ai-text-sm ">
+              {this.props.content1}
+            </p>
+            <h6 className="weaverz-ai-mt-3 weaverz-ai-text-left ">
+              {this.props.button}
+            </h6>
           </div>
+          
         </div>
       </>
     );
