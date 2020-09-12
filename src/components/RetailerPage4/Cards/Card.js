@@ -1,5 +1,4 @@
 import React from "react";
-import "../Pages/Page1.css";
 
 class Card extends React.Component {
   render() {

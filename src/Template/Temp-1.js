@@ -6,9 +6,10 @@ import img4 from "../assets/Template2/img-4.jpg";
 import img6 from "../assets/Template2/img-6.webp";
 import img7 from "../assets/Template2/img-7.jpg";
 import RetailerBenfits from "../components/RetailerPage2/RetailerBenfits2";
-import SingleRowImage from '../components/TwointoOneOverLay/SingleRowImage'
-import SingleRowImageWIthTxt from '../components/TwointoOneOverLay/SingleRowImageWithTxt'
-
+import SingleRowImage from "../components/TwointoOneOverLay/SingleRowImage";
+import SingleRowImageWIthTxt from "../components/TwointoOneOverLay/SingleRowImageWithTxt";
+import LogoPlusCollection from "../components/LogoPlusCollection/LogoPlusCollection";
+import HeaderModule1 from "../components/HeaderModule/HeaderModule";
 
 class Temp1 extends React.Component {
   render() {
@@ -16,7 +17,9 @@ class Temp1 extends React.Component {
       <>
         {/*container for layout */}
         <div className="md:weaverz-ai-container md:weaverz-ai-mx-auto">
-          <p className="weaverz-ai-text-center weaverz-ai-mt-10">THE WORLDS FIRST WOOL SPORTS SHOE</p>
+          <p className="weaverz-ai-text-center weaverz-ai-mt-10">
+            THE WORLDS FIRST WOOL SPORTS SHOE
+          </p>
           <h3 className="weaverz-ai-text-center">WOOL CROSS X</h3>
           <div className="weaverz-ai-grid weaverz-ai-gap-x-24 xlg:weaverz-ai-grid-cols-1 lg:weaverz-ai-grid-cols-1 md:weaverz-ai-grid-cols-1 sm:weaverz-ai-grid-cols-1 weaverz-ai-mt-4">
             {/* Colum -1 */}
@@ -35,7 +38,7 @@ class Temp1 extends React.Component {
                 imgOrder="first"
               />
               <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
-              <SingleRowImage 
+              <SingleRowImage
                 imgSrc={img6}
                 heading="STABILITY CONTROL"
                 content="The special sole provides maximum stability and an ideal cushioning effect on all surfaces."
@@ -54,10 +57,8 @@ class Temp1 extends React.Component {
                 imgOrder="last"
               />
               <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
+              <HeaderModule1 />
             </div>
-          </div>
-          <div>
-
           </div>
         </div>
       </>

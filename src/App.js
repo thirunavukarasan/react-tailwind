@@ -1,25 +1,31 @@
 import React from 'react';
 import './App.css';
 import ImageGallery from './components/ImageGallery/ImageGallery';
+import ThumnailGallery from './components/RetailerPage6/ThumnailGallery/ImageGallery';
 import RetailerPage1 from './components/RetailerPage1/RetailerPage1';
 import RetailerPage2 from './components/RetailerPage2/RetailerPage2';
 import RetailerPage3 from './components/Retailerpage3/RetailerPage3';
+import RetailerPage4 from './components/RetailerPage4/Pages/Page1';
 import Temp1 from './Template/Temp-1'
-
+import Icons4X2 from './components/4x2_Icons/card'
+import InformationModule1 from './components/InformationModule1/InformationModule1'
+import VerticalImagesForTem6 from './components/Vertical_slider_image/card'
+import Vertical_ImgComTemp6 from './components/Vertical_Img-T-D/card2'
+import Horizondal_ImgComTemp6 from './components/Horizon_Img-T-D/card1'
+import Icons3x1 from './components/Icons3x1/Icons3X1'
+import Temp6 from './Template/Temp-6'
+import CollageGallery from './components/CollageGallery/CollageGallery'
 
 
 function App() {
 	const imagesArr = getImagesData();
 	return (
 		<>
-			{/* <ImageGallery sliderImages= {imagesArr}/> */}
+			{/* <Temp6 sliderImages= {imagesArr}/> */}
 			<Temp1/>
-			<RetailerPage1/>
-			<RetailerPage3/>
-			<RetailerPage2/>
-			
-	
-		</>	
+			<CollageGallery sliderImages= {imagesArr}/>
+		</>
+
 	);
 }
 

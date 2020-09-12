@@ -1,17 +1,15 @@
 import React from 'react'
-import Content from '../RetailerPage7/Content';
+import Content from './Content';
 import img1 from '../../assets/img/imgRet7/img1.jpg';
 import img2 from '../../assets/img/imgRet7/img2.jpg';
 import img3 from '../../assets/img/imgRet7/img3.jpg';
-import './card.css'
 class Card extends React.Component {
   render() {
     return (
       <>
         <div className=" md:weaverz-ai-container md:weaverz-ai-mx-auto">
-            <div className="weaverz-ai-gee">
-          <div className="weaverz-ai-grid md:weaverz-ai-gap-20 xlg:weaverz-ai-grid-rows-2 xlg:weaverz-ai-grid-cols-3 md:weaverz-ai-grid-cols-3 xs:weaverz-ai-grid-cols-1 ">
-            <div ClassName={'weaverz-ai-imgA1 '}>
+          <div className="weaverz-ai-grid xlg:weaverz-ai-grid-rows-2 xlg:weaverz-ai-grid-cols-3 md:weaverz-ai-grid-cols-3 xs:weaverz-ai-grid-cols-1 ">
+            <div ClassName="">
               <Content
                 imgSrc={img1}
                 heading="Good looking"
@@ -40,7 +38,6 @@ class Card extends React.Component {
              </div>
              </div>
           </div>
-        </div>
       </>
     );
   }

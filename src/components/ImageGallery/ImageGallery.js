@@ -64,8 +64,8 @@ class ImageGallery extends React.Component {
                                     return <img key={index} className={"weaverz-ai-banner-img weaverz-ai-rounded " + (value.isShow == false ? 'weaverz-ai-hidden' : '')} src={value.imgUrl} style={{ width: "100%" }} />
                                 })
                             }
-                            <a className="weaverz-ai-absolute weaverz-ai-text-white weaverz-ai-ml-6 weaverz-ai-text-2xl weaverz-ai-left-x-0 weaverz-ai-ban-prev" onClick={() => this.plusSlides(-1)}>&#10094;</a>
-                            <a className="weaverz-ai-absolute weaverz-ai-text-white  weaverz-ai-mr-6  weaverz-ai-text-2xl weaverz-ai-right-0 weaverz-ai-ban-next" onClick={() => this.plusSlides(1)}>&#10095;</a>
+                            <a className="weaverz-ai-absolute weaverz-ai-text-black weaverz-ai-ml-6 weaverz-ai-text-2xl weaverz-ai-left-x-0 weaverz-ai-ban-prev" onClick={() => this.plusSlides(-1)}>&#10094;</a>
+                            <a className="weaverz-ai-absolute weaverz-ai-text-black  weaverz-ai-mr-6  weaverz-ai-text-2xl weaverz-ai-right-0 weaverz-ai-ban-next" onClick={() => this.plusSlides(1)}>&#10095;</a>
                             <div className="weaverz-ai-absolute weaverz-ai-inset-x-0 weaverz-ai-dot-pos">
                                 <div className="weaverz-ai-text-center">
                                     {

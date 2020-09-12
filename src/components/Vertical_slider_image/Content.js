@@ -1,5 +1,4 @@
 import React from "react";
-import './card.css'
 class Content extends React.Component {
   render() {
     console.log(this.props);
@@ -11,7 +10,7 @@ class Content extends React.Component {
             <div
             className={`weaverz-ai-image `}
           >
-            <div ClassName="">
+            <div className="">
               <img
                 src={this.props.imgSrc}
                 alt=""
