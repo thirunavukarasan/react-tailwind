@@ -14,7 +14,8 @@ import Vertical_ImgComTemp6 from './components/Vertical_Img-T-D/card2'
 import Horizondal_ImgComTemp6 from './components/Horizon_Img-T-D/card1'
 import Icons3x1 from './components/Icons3x1/Icons3X1'
 import Temp6 from './Template/Temp-6'
-import CollageGallery from './components/CollageGallery/CollageGallery'
+import CollageGallery1 from './components/CollageGalleryFormat1/CollageGalleryFormat1'
+import CollageGallery2 from './components/CollageGalleryFormat2/CollageGalleryFormat2'
 
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
 	return (
 		<>
 			{/* <Temp6 sliderImages= {imagesArr}/> */}
-			<Temp1/>
-			<CollageGallery sliderImages= {imagesArr}/>
+			{/* <Temp1/> */}
+			<CollageGallery1/>
+			{/* <CollageGallery2/> */}
 		</>
 
 	);
