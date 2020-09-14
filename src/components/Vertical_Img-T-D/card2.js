@@ -15,7 +15,8 @@ class Card1 extends React.Component {
                 imgSrc={img2}               
                 icon={<FontAwesomeIcon icon={faCoffee} >  </FontAwesomeIcon>}
                 heading="Shop Trino™ Sprinters" 
-                content="Our performance sock is engineered to pair with the Dasher, combining breathability, durability, and design for your optimal, distraction free run."
+                content="Our performance sock is engineered to pair with the Dasher, combining breathability, durability, and design for your optimal, distraction free run.
+                Our performance sock is engineered to pair with the Dasher, combining breathability, durability, and design for your optimal, distraction free run."
                 imgOrder = "last"
               /> 
               <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>

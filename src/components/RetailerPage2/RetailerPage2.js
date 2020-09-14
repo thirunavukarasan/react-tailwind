@@ -5,7 +5,7 @@ import img3 from "../../assets/Template2/img-3.jpg";
 import img4 from "../../assets/Template2/img-4.jpg";
 import img6 from "../../assets/Template2/img-6.webp";
 import img7 from "../../assets/Template2/img-7.jpg";
-import RetailerBenfits from "./RetailerBenfits";
+import RetailerBenfits from "./RetailerBenfits2";
 import SingleRowImage from '../TwointoOneOverLay/SingleRowImage'
 import SingleRowImageWIthTxt from '../TwointoOneOverLay/SingleRowImageWithTxt'
 
@@ -34,17 +34,17 @@ class RetailerPage2 extends React.Component {
                 imgOrder="first"
               />
               <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
-              <SingleRowImage 
-                imgSrc={img6}
+              <RetailerBenfits 
+                imgSrc={img4}
                 heading="STABILITY CONTROL"
                 content="The special sole provides maximum stability and an ideal cushioning effect on all surfaces."
                 imgOrder="last"
               />
-              <SingleRowImageWIthTxt
+              {/* <RetailerBenfits
                 imgSrc={img7}
                 heading="STABILITY CONTROL"
                 content="The special sole provides maximum stability and an ideal cushioning effect on all surfaces."
-              />
+              /> */}
               {/* <RetailerBenfits
                 imgSrc={img4}
                 heading="STABILITY CONTROL"
@@ -56,7 +56,7 @@ class RetailerPage2 extends React.Component {
                 imgSrc={img3}
                 heading="MICRO-GRIP SOLE"
                 content="The Wool Cross X sports a Micro-Grip sole, which makes it the perfect shoe for any terrain. No matter if you’re tackling snow, slush or rocky ground, the Wool Cross X has your back."
-                imgOrder="last"
+                imgOrder="first"
               />
               <hr className="sm:weaverz-ai-block md:weaverz-ai-hidden weaverz-ai-my-2"></hr>
             </div>

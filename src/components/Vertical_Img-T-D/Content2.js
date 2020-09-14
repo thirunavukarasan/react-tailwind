@@ -7,8 +7,8 @@ class Content2 extends React.Component {
       <>
         {/*container for layout */}
         <div className="weaverz-ai-grid lg:weaverz-ai-grid-cols-2  md:weaverz-ai-grid-cols-2 sm:weaverz-ai-grid-cols-1">
-          <div className="  md:weaverz-ai-py-10 weaverz-ai-text-center md:weaverz-ai-mt-8 md:weaverz-ai-p-0 md:weaverz-ai-mt-10">
-          <div className="weaverz-ai-text-center">
+          <div className="  md:weaverz-ai-py-24 weaverz-ai-text-center md:weaverz-ai-p-0 md:weaverz-ai-mt-10">
+          <div className="weaverz-ai-text-center weaverz-ai-text-2xl">
             {this.props.icon}
             </div>
             <h5 className="weaverz-ai-font-bold  weaverz-ai-text-center">

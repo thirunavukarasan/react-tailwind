@@ -8,7 +8,7 @@ class RetailerBenfitsLastRow extends React.Component {
       <>
         {/*container for layout */}
         <div className="weaverz-ai-grid lg:weaverz-ai-grid-cols-1 md:weaverz-ai-grid-cols-1 sm:weaverz-ai-grid-cols-1">
-          <div id="weaverz-ai-img-Sec">
+          <div id="weaverz-ai-img-row">
             <img id="weaverz-ai-cus-img"
                   src={this.props.imgSrc}
                   alt="photo"
