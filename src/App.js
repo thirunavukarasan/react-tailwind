@@ -6,6 +6,7 @@ import RetailerPage1 from './components/RetailerPage1/RetailerPage1';
 import RetailerPage2 from './components/RetailerPage2/RetailerPage2';
 import RetailerPage3 from './components/Retailerpage3/RetailerPage3';
 import RetailerPage4 from './components/RetailerPage4/Pages/Page1';
+import RetailerPage5 from './components/TwointoOneOverLay/SingleRowImageWithTxt'
 import Temp1 from './Template/Temp-1'
 import Icons4X2 from './components/4x2_Icons/card'
 import InformationModule1 from './components/InformationModule1/InformationModule1'
@@ -16,7 +17,9 @@ import Icons3x1 from './components/Icons3x1/Icons3X1'
 import Temp6 from './Template/Temp-6'
 import CollageGallery1 from './components/CollageGalleryFormat1/CollageGalleryFormat1'
 import CollageGallery2 from './components/CollageGalleryFormat2/CollageGalleryFormat2'
-
+import CollageGallery from './components/CollageGallery/CollageGallery'
+import LogoplusName from './components/LogoPlusName/LogoPlusName'
+import Featurmodel1 from './components/RetailerPage1/RetailerBenfits'
 
 function App() {
 	const imagesArr = getImagesData();
@@ -24,8 +27,12 @@ function App() {
 		<>
 			{/* <Temp6 sliderImages= {imagesArr}/> */}
 			{/* <Temp1/> */}
-			<CollageGallery1/>
+			{/* <LogoplusName/> */}
+			{/* <CollageGallery/> */}
 			{/* <CollageGallery2/> */}
+			{/* <CollageGallery2/> */}
+			<RetailerPage1/>
+			
 		</>
 
 	);

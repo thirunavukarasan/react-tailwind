@@ -110,7 +110,7 @@
 }
 
 
-.img_1 {
+/* .img_1 {
   position: relative;
   height: 300px;
   background-image: linear-gradient(#ff9d2f, #ff6126);
@@ -120,7 +120,7 @@
     100% 100%,
     0 calc(100% - 5vw)
   );
-}
+} */
 
 
 /*Approach Two*/
